@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animowane tło z plamami -->
+    <div class="background-gradient">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Górne menu - chowa się przy scrollu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="#omnie">O mnie</a></li>
+                <li><a href="#projekty">Projekty</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sekcja HERO z PORTFOLIO i O MNIE -->
+    <section class="hero-section">
+        <div class="container-hero">
+            <!-- Napis Portfolio po lewej -->
+            <div class="portfolio-title">Portfolio</div>
+            
+            <!-- Sekcja O mnie pod Portfolio -->
+            <div id="omnie" class="about-box">
+                <h2 class="section-title-small">O mnie</h2>
+                <div class="about-content">
+                    <p>
+                        Cześć! Jestem graficzką zajmującą się tworzeniem unikalnych projektów graficznych.
+                        Specjalizuję się w projektowaniu identyfikacji wizualnych, ilustracjach oraz designie cyfrowym.
+                    </p>
+                    <p>
+                        Każdy projekt traktuję indywidualnie, dbając o najmniejsze detale. 
+                        Zobaczmy co możemy stworzyć razem!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja PROJEKTY -->
+    <section id="projekty" class="section">
+        <div class="container">
+            <h2 class="section-title">Projekty</h2>
+            <div class="gallery">
+                <!-- Projekt 1 -->
+                <div class="gallery-item" onclick="openProject(1)">
+                    <img src="images/projekt1.jpg" alt="Projekt 1">
+                    <div class="gallery-overlay">
+                        <h3>ML Designs - Minimalistyczna Identyfikacja Wizualna</h3>
+                        <p>Branding • Logo</p>
+                    </div>
+                </div>
+                
+                <!-- Projekt 2 -->
+                <div class="gallery-item" onclick="openProject(2)">
+                    <img src="images/projekt2.jpg" alt="Projekt 2">
+                    <div class="gallery-overlay">
+                        <h3>Nike: Inflatable 3D Exploration</h3>
+                        <p>Adobe Illustrator</p>
+                    </div>
+                </div>
+
+                <!-- Projekt 3 -->
+                <div class="gallery-item" onclick="openProject(3)">
+                    <img src="images/projekt3.jpg" alt="Projekt 3">
+                    <div class="gallery-overlay">
+                        <h3>Red Bull Coconut Edition - Concept Packaging</h3>
+                        <p>Adobe Photoshop • Adobe Illustrator</p>
+                    </div>
+                </div>
+
+                <!-- Projekt 4 -->
+                <div class="gallery-item" onclick="openProject(4)">
+                    <img src="images/projekt4.jpg" alt="Projekt 4">
+                    <div class="gallery-overlay">
+                        <h3>Whisper Valley - Kompleksowa Koncepcja i Lead Design</h3>
+                        <p></p>
+                    </div>
+                </div>
+
+                <!-- Projekt 5 -->
+                <div class="gallery-item" onclick="openProject(5)">
+                    <img src="images/projekt5.jpg" alt="Projekt 5">
+                    <div class="gallery-overlay">
+                        <h3>AxiomLabs - Kompleksowa Tożsamość Wizualna Startup-u</h3>
+                        <p>Branding</p>
+                    </div>
+                </div>
+
+                <!-- Projekt 6 -->
+                <div class="gallery-item" onclick="openProject(6)">
+                    <img src="images/projekt6.jpg" alt="Projekt 6">
+                    <div class="gallery-overlay">
+                        <h3>Coffee SVG Collection - Web Illustration System</h3>
+                        <p>Adobe Illustrator • SVG</p>
+                    </div>
+                </div>
+                <!-- Projekt 7 -->
+                <div class="gallery-item" onclick="openProject(7)">
+                    <img src="images/projekt7.jpg" alt="Projekt 7">
+                    <div class="gallery-overlay">
+                        <h3>Projekt konkursowy Medicine Art Awards</h3>
+                        <p>Adobe Illustrator</p>
+                    </div>
+                </div>
+
+                <!-- Projekt 8 -->
+                <div class="gallery-item" onclick="openProject(8)">
+                    <img src="images/projekt8.jpg" alt="Projekt 8">
+                    <div class="gallery-overlay">
+                        <h3>FungiRadar.pl • Social Media & Brand Development</h3>
+                        <p>Social media</p>
+                    </div>
+                </div>
+
+                 <!-- Projekt 9 -->
+                <div class="gallery-item" onclick="openProject(9)">
+                    <img src="images/projekt9.jpg" alt="Projekt 9">
+                    <div class="gallery-overlay">
+                        <h3>FungiRadar - Seria Ebooków Edukacyjnych</h3>
+                        <p>Adobe Illustrator • Canva</p>
+                    </div>
+                </div>
+
+                <!-- Projekt 10 -->
+                <div class="gallery-item" onclick="openProject(10)">
+                    <img src="images/projekt10-14.jpg" alt="Projekt 10">
+                    <div class="gallery-overlay">
+                        <h3>3D Environment & Game Assets</h3>
+                        <p>Blender</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Przycisk zamknięcia - POZA modalem -->
+    <button id="modalCloseBtn" class="modal-close" onclick="closeProject()" 
+    style="display: none;">&times;</button>
+
+    <!-- MODAL - Szczegóły projektu -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <!-- Lewa strona - Zdjęcia jedno pod drugim (scrolluje się niezależnie) -->
+            <div class="modal-gallery">
+                <div class="modal-images" id="modalImages">
+                    <!-- Zdjęcia będą wstawiane dynamicznie przez JavaScript -->
+                </div>
+            </div>
+            
+            <!-- Prawa strona - Opis projektu (scrolluje się niezależnie) -->
+            <div class="modal-info">
+                <h2 id="projectTitle">Nazwa projektu</h2>
+                <div class="project-meta">
+                    <span id="projectCategory">Kategoria</span>
+                    <span id="projectYear">2024</span>
+                </div>
+                <div id="projectDescription" class="project-description">
+                    <p>Opis projektu będzie tutaj...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sekcja KONTAKT - uproszczona -->
+    <section id="kontakt" class="contact-section">
+        <div class="contact-inner">
+            <h2 class="contact-headline">Kontakt</h2>
+            <p class="contact-subtext">
+                Masz projekt do zrealizowania?<br>Napisz do mnie!
+            </p>
+            <a href="mailto:twoj@email.com" class="contact-email-link">
+                lauraryt123@gmail.com
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Portfolio. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
