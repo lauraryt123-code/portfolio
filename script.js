@@ -12,9 +12,9 @@ const projects = {
 <p>Paleta kolorystyczna: Klasyczna czerń i biel (Monochrome).</p>
         `,
         images: [
-            "images/projekt1.jpg",
-            "images/projekt1-2.jpg",
-            "images/projekt1-3.jpg"
+            "images/projekt1.webp",
+            "images/projekt1-2.webp",
+            "images/projekt1-3.webp"
         ]
     },
     2: {
@@ -29,7 +29,7 @@ const projects = {
 <p>Kluczowe zagadnienia: Typografia 3D, kompozycja warstwowa, renderowanie wektorowe.</p>
         `,
         images: [
-            "images/projekt2.jpg",
+            "images/projekt2.webp",
         ]
     },
     3: {
@@ -44,9 +44,9 @@ const projects = {
             
         `,
         images: [
-            "images/projekt3.jpg",
-            "images/projekt3-2.jpg",
-            "images/projekt3-3.jpg"
+            "images/projekt3.webp",
+            "images/projekt3-2.webp",
+            "images/projekt3-3.webp"
         ]
     },
     4: {
@@ -66,20 +66,20 @@ const projects = {
 <p>Narzędzia: Adobe Photoshop, Illustrator, Figma, Blender, Canva, AI Tools.</p>
         `,
         images: [
-            "images/projekt4.jpg",
-            "images/projekt4-1-2.jpg",
-            "images/projekt4-2.jpg",
-            "images/projekt4-3.jpg",
-            "images/projekt4-4.jpg",
-            "images/projekt4-5.jpg",
-            "images/projekt4-6.jpg",
-            "images/projekt4-7.jpg",
-            "images/projekt4-8.jpg",
-            "images/projekt4-9.jpg",
-            "images/projekt4-10.jpg",
-            "images/projekt4-11.jpg",
-            "images/projekt4-12.jpg",
-            "images/projekt4-13.jpg",
+            "images/projekt4.webp",
+            "images/projekt4-1-2.webp",
+            "images/projekt4-2.webp",
+            "images/projekt4-3.webp",
+            "images/projekt4-4.webp",
+            "images/projekt4-5.webp",
+            "images/projekt4-6.webp",
+            "images/projekt4-7.webp",
+            "images/projekt4-8.webp",
+            "images/projekt4-9.webp",
+            "images/projekt4-10.webp",
+            "images/projekt4-11.webp",
+            "images/projekt4-12.webp",
+            "images/projekt4-13.webp",
         ]
     },
     5: {
@@ -94,9 +94,9 @@ const projects = {
 <p>Product Oversight: Zarządzanie jakością materiałów graficznych na każdym etapie rozwoju startupu.</p>
         `,
         images: [
-            "images/projekt5.jpg",
-            "images/projekt5-2.jpg",
-            "images/projekt5-3.jpg",
+            "images/projekt5.webp",
+            "images/projekt5-2.webp",
+            "images/projekt5-3.webp",
         ]
     },
     6: {
@@ -111,16 +111,16 @@ const projects = {
 <p>Głównym narzędziem projektowym był Adobe Illustrator, w którym powstały wszystkie ilustracje wektorowe. Figma została wykorzystana pomocniczo - do testowania kompozycji w kontekście interfejsu oraz dopasowania elementów do układu strony.</p>
         `,
         images: [
-            "images/projekt6.jpg",
-            "images/projekt6-2.jpg",
-            "images/projekt6-4.jpg",
-            "images/projekt6-5.jpg",
-            "images/projekt6-6.jpg",
-            "images/projekt6-7.jpg",
-            "images/projekt6-8.jpg",
-            "images/projekt6-9.jpg",
-            "images/projekt6-10.jpg",
-            "images/projekt6-11.jpg",
+            "images/projekt6.webp",
+            "images/projekt6-2.webp",
+            "images/projekt6-4.webp",
+            "images/projekt6-5.webp",
+            "images/projekt6-6.webp",
+            "images/projekt6-7.webp",
+            "images/projekt6-8.webp",
+            "images/projekt6-9.webp",
+            "images/projekt6-10.webp",
+            "images/projekt6-11.webp",
         ]
     },
     7: {
@@ -132,7 +132,7 @@ const projects = {
             <p>Stworzyłam nocny pejzaż miasteczka, którego splątane uliczki symbolizują zawiłość ludzkich losów. Samotna postać wędrująca pod górę to metafora osobistej podróży przez życiowy zakręt, gdzie to, co czeka dalej, pozostaje tajemnicą. Użycie mocnego kontrastu czerni i bieli pozwoliło mi zbudować nastrój pełen napięcia i melancholii.</p>
         `,
         images: [
-            "images/projekt7.jpg",
+            "images/projekt7.webp",
             
         ]
     },
@@ -145,24 +145,24 @@ const projects = {
             <p>Odpowiadałam za strategię marketingową, tworzenie treści wizualnych, branding oraz estetykę strony internetowej. Dzięki opracowanej strategii i komunikacji marka zaczęła generować przychody.</p>
         `,
         images: [
-            "images/projekt8.jpg",
-            "images/projekt8-15.jpg",
-            "images/projekt8-16.jpg",
-            "images/projekt8-17.jpg",
-            "images/projekt8-18.jpg",
-            "images/projekt8-2.jpg",
-            "images/projekt8-3.jpg",
-            "images/projekt8-4.jpg",
-            "images/projekt8-5.jpg",
-            "images/projekt8-6.jpg",
-            "images/projekt8-7.jpg",
-            "images/projekt8-8.jpg",
-            "images/projekt8-9.jpg",
-            "images/projekt8-10.jpg",
-            "images/projekt8-11.jpg",
-            "images/projekt8-12.jpg",
-            "images/projekt8-13.jpg",
-            "images/projekt8-14.jpg",
+            "images/projekt8.webp",
+            "images/projekt8-15.webp",
+            "images/projekt8-16.webp",
+            "images/projekt8-17.webp",
+            "images/projekt8-18.webp",
+            "images/projekt8-2.webp",
+            "images/projekt8-3.webp",
+            "images/projekt8-4.webp",
+            "images/projekt8-5.webp",
+            "images/projekt8-6.webp",
+            "images/projekt8-7.webp",
+            "images/projekt8-8.webp",
+            "images/projekt8-9.webp",
+            "images/projekt8-10.webp",
+            "images/projekt8-11.webp",
+            "images/projekt8-12.webp",
+            "images/projekt8-13.webp",
+            "images/projekt8-14.webp",
             
         
         ]
@@ -177,16 +177,16 @@ const projects = {
             <p>Ebooki zostały zaprojektowane jako rozszerzenie platformy map grzybowych. Ich celem było dostarczenie użytkownikom wiedzy w uporządkowanej, atrakcyjnej wizualnie formie.</p>
         `,
         images: [
-            "images/projekt9.jpg",
-            "images/projekt9-2.jpg",
-            "images/projekt9-3.jpg",
-            "images/projekt9-4.jpg",
-            "images/projekt9-5.jpg",
-            "images/projekt9-6.jpg",
-            "images/projekt9-7.jpg",
-            "images/projekt9-8.jpg",
-            "images/projekt9-9.jpg",
-            "images/projekt9-10.jpg",
+            "images/projekt9.webp",
+            "images/projekt9-2.webp",
+            "images/projekt9-3.webp",
+            "images/projekt9-4.webp",
+            "images/projekt9-5.webp",
+            "images/projekt9-6.webp",
+            "images/projekt9-7.webp",
+            "images/projekt9-8.webp",
+            "images/projekt9-9.webp",
+            "images/projekt9-10.webp",
         ]
     },
     10: {
@@ -199,23 +199,23 @@ const projects = {
             
         `,
         images: [
-            "images/projekt10-14.jpg",
-            "images/projekt10-15.jpg",
-            "images/projekt10.jpg",
-            "images/projekt10-1.jpg",
-            "images/projekt10-2.jpg",
-            "images/projekt10-3.jpg",
-            "images/projekt10-4.jpg",
-            "images/projekt10-5.jpg",
-            "images/projekt10-6.jpg",
-            "images/projekt10-7.jpg",
-            "images/projekt10-8.jpg",
-            "images/projekt10-9.jpg",
-            "images/projekt10-10.jpg",
-            "images/projekt10-11.jpg",
-            "images/projekt10-12.jpg",
-            "images/projekt10-13.jpg",
-            "images/projekt10-16.jpg",
+            "images/projekt10-14.webp",
+            "images/projekt10-15.webp",
+            "images/projekt10.webp",
+            "images/projekt10-1.webp",
+            "images/projekt10-2.webp",
+            "images/projekt10-3.webp",
+            "images/projekt10-4.webp",
+            "images/projekt10-5.webp",
+            "images/projekt10-6.webp",
+            "images/projekt10-7.webp",
+            "images/projekt10-8.webp",
+            "images/projekt10-9.webp",
+            "images/projekt10-10.webp",
+            "images/projekt10-11.webp",
+            "images/projekt10-12.webp",
+            "images/projekt10-13.webp",
+            "images/projekt10-16.webp",
 
         ]
     }
